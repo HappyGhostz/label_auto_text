@@ -12,13 +12,13 @@ To use this packages, add label_auto_text as a dependency in your pubspec.yaml f
     @override
       Widget build(BuildContext context) {
         return LabelViewDecoration(
-            size: Size(80.0, 80.0),
-            labelColor: Colors.red,
-            labelAlignment: LabelAlignment.leftTop,
-            useAngle: true,
+            size: Size(80.0, 80.0),//label size
+            labelColor: Colors.red,//label color
+            labelAlignment: LabelAlignment.leftTop,//The orientation of the label attached to the widget
+            useAngle: true,//
             labelText: "Hot",
             labelTextColor: Colors.white,
-            child: _builderItem()
+            child: _builderItem()//Label attached widget
         );
       }
 * labelAlignment: LabelAlignment.leftTop,
